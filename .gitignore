@@ -1,2 +1,4 @@
-Pipfile.lock
+.idea/*
 .envrc
+__pycache__
+Pipfile.lock

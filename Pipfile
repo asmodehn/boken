@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 uplink = "*"
 vcrpy = "*"
+pytest = "*"
+pytest-vcr = "*"
 
 [requires]
 python_version = "3.7"
