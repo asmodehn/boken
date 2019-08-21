@@ -1,6 +1,14 @@
 import pytest
 
 from boken.aio import kraken
+from boken.model import time
+
+"""
+Async tests
+
+TODO : generate these from sync tests (simpler to manage)
+"""
+
 
 
 @pytest.mark.vcr
@@ -8,10 +16,7 @@ from boken.aio import kraken
 async def test_time():
     response = await kraken.get_time()
     print(response)
-    # asserting structure (but marshmallow could do it)
-    assert not response.get('error')
-    assert response.get('result').get('rfc1123')
-    assert response.get('result').get('unixtime')
+    assert isinstance(response, time.Time)
 
 
 if __name__ == '__main__':
