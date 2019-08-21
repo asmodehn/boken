@@ -2,15 +2,13 @@ import pytest
 
 from boken.sync import kraken
 
+from boken.model import time
 
 @pytest.mark.vcr()
 def test_time():
     response = kraken.get_time()
     print(response)
-    # asserting structure (but marshmallow could do it)
-    assert not response.get('error')
-    assert response.get('result').get('rfc1123')
-    assert response.get('result').get('unixtime')
+    assert isinstance(response, time.Time)
 
 
 if __name__ == '__main__':
