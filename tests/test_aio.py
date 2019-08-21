@@ -1,6 +1,6 @@
 import pytest
 
-from boken.asyncio import kraken
+from boken.aio import kraken
 
 
 @pytest.mark.vcr
