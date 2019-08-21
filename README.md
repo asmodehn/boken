@@ -11,11 +11,13 @@ Bot for Kraken
 ### Quickstart
 Run a simple simulated strategy locally, but using real data from the exchange, do:
 ```bash
-TODO
+python -m boken
 ```
+Disclaimer: Currently it only runs basic example requests while core functionality is being developed.
 
 ### Jupyter notebooks
-To use this library via a jupyter notebook to quickly get a nice visual feedback, do:
+To use this library via a jupyter notebook to quickly get a nice visual feedback, follow instructions in JupyterLab.md
+Then open a notebook and enter:
 ```bash
 TODO
 ```

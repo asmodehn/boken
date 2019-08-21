@@ -11,6 +11,10 @@ pytest-asyncio = "*"
 [packages]
 uplink = "*"
 aiohttp = "*"
+ipympl = "*"
+jupyterlab = "*"
+jupyterlab-git = "*"
+jupyterlab-dash = "==0.1.0a3"
 
 [requires]
 python_version = "3.7"
