@@ -1,11 +1,11 @@
 import pytest
 
-from boken.kraken import k
+from boken.sync import kraken
 
 
 @pytest.mark.vcr()
 def test_time():
-    response = k.get_time()
+    response = kraken.get_time()
     print(response)
     # asserting structure (but marshmallow could do it)
     assert not response.get('error')

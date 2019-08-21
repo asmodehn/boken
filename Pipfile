@@ -4,12 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pytest = "*"
+pytest-recording = "*"
+pytest-asyncio = "*"
 
 [packages]
 uplink = "*"
-vcrpy = "*"
-pytest = "*"
-pytest-vcr = "*"
+aiohttp = "*"
 
 [requires]
 python_version = "3.7"

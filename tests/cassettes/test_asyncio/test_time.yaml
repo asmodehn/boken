@@ -1,0 +1,32 @@
+interactions:
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - Uplink-Sample-App
+    method: GET
+    uri: https://api.kraken.com/0/public/Time
+  response:
+    body:
+      string: '{"error":[],"result":{"unixtime":1566374273,"rfc1123":"Wed, 21 Aug
+        19 07:57:53 +0000"}}'
+    headers:
+      CF-Cache-Status: MISS
+      CF-RAY: 509b0f06bd305fd3-MRS
+      Cache-Control: no-cache,max-age=0
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: application/json; charset=utf-8
+      Date: Wed, 21 Aug 2019 07:57:53 GMT
+      Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server: cloudflare
+      Set-Cookie: __cfduid=d4e05159a5bd05da995d5ad5e5a772d711566374273; expires=Thu,
+        20-Aug-20 07:57:53 GMT; path=/; domain=.kraken.com; HttpOnly
+      Strict-Transport-Security: max-age=15768000
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+    status:
+      code: 200
+      message: OK
+    url: https://api.kraken.com/0/public/Time
+version: 1
