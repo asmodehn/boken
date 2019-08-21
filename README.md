@@ -1,6 +1,8 @@
 # boken
 
 [![Build Status](https://travis-ci.org/asmodehn/boken.svg?branch=master)](https://travis-ci.org/asmodehn/boken)
+[![Updates](https://pyup.io/repos/github/asmodehn/boken/shield.svg)](https://pyup.io/repos/github/asmodehn/boken/)
+[![Python 3](https://pyup.io/repos/github/asmodehn/boken/python-3-shield.svg)](https://pyup.io/repos/github/asmodehn/boken/)
 
 Bot for Kraken
 

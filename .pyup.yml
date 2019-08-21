@@ -26,7 +26,8 @@ pin: True
 # default: empty
 # allowed: list
 requirements:
-  - Pipfile
+  - Pipfile:
+      pin: True
 
 # add a label to pull requests, default is not set
 # requires private repo permissions, even on public repos
