@@ -1,0 +1,21 @@
+dist: xenial
+language: python
+
+branches:
+  except:
+    - gh-pages
+
+python:
+  - '3.7'
+  #- '3.8'
+
+
+install:
+  - pipenv install --pre --skip-lock
+
+script:
+  - pytest
+
+notifications:
+  email: false
+

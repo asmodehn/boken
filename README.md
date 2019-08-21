@@ -48,12 +48,14 @@ Any question/concern, do not hesitate to post an Issue.
 Any proposal for improvement, do not hesitate to post a Pull Request.
 We will try to prioritize addressing issues and merging PR via milestones.
 
+Disclaimer : We are currently setting up the basis of the code, so this can be messy at the moment...
 
 ### Pipenv
 We will use the tools that makes it convenient to code interactively in python.
 Toolchain:
 - pipenv
 - pytest
+- vcrpy
 - mypy
 - black
 - jupyter
@@ -64,7 +66,7 @@ Feel free to propose your favorite tool and argument why it would help to bring 
 ### Tests
 To run the tests, using prerecorded server response, do:
 ```bash
-TODO
+pytest
 ```
 This includes typing and doctests.
 
@@ -72,5 +74,5 @@ This includes typing and doctests.
 To get meaningful server data to test again later, we use vcrpy.
 to run the tests and record, do:
 ```bash
-TODO
+pytest --record-mode=all
 ```
