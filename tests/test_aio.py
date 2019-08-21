@@ -3,8 +3,8 @@ import pytest
 from boken.asyncio import kraken
 
 
-@pytest.mark.asyncio
 @pytest.mark.vcr
+@pytest.mark.asyncio
 async def test_time():
     response = await kraken.get_time()
     print(response)
