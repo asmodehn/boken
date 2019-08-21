@@ -1,4 +1,7 @@
 # boken
+
+[![Build Status](https://travis-ci.org/asmodehn/boken.svg?branch=master)](https://travis-ci.org/asmodehn/boken)
+
 Bot for Kraken
 
 ## User
