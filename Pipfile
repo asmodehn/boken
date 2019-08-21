@@ -1,16 +1,23 @@
 [[source]]
+
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+
 [dev-packages]
+
 pytest = "*"
 pytest-recording = "*"
-pytest-asyncio = "*"
+pytest-asyncio = "==0.10.0"
+
 
 [packages]
+
 uplink = "*"
 aiohttp = "*"
 
+
 [requires]
+
 python_version = "3.7"
