@@ -1,20 +1,27 @@
 [[source]]
+
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+
 [dev-packages]
+
 pytest = "*"
 pytest-recording = "*"
 pytest-asyncio = "*"
 
+
 [packages]
+
 uplink = "*"
 aiohttp = "*"
-ipympl = "*"
+ipympl = "==0.3.3"
 jupyterlab = "*"
 jupyterlab-git = "*"
 jupyterlab-dash = "==0.1.0a3"
 
+
 [requires]
+
 python_version = "3.7"
