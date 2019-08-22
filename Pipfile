@@ -17,7 +17,7 @@ pytest-asyncio = "*"
 uplink = "*"
 aiohttp = "*"
 ipympl = "==0.3.3"
-jupyterlab = "==1.0.8"
+jupyterlab = "==1.0.9"
 jupyterlab-git = "==0.8.1"
 jupyterlab-dash = "==0.1.0a3"
 
