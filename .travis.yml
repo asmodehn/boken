@@ -14,6 +14,7 @@ install:
   - pipenv install --dev --pre --skip-lock
 
 script:
+  - python -m boken.api.tests
   - python -m boken.ws.tests
   - pytest tests
   -
