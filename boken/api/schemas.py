@@ -13,11 +13,13 @@ class SchemaBase(marshmallow.Schema):
 
 class TimeSchema(SchemaBase):
     """ Schema to parse the string received"""
-    unixtime = marshmallow.fields.Int()
+    unixtime = marshmallow.fields.Int(required=True)
+    # rfc1123 ??
 
     @marshmallow.post_load(pass_many=False)
     def make_time(self, data, **kwargs):
         return Time(data.get("unixtime"))
+
 
 # == Schemas == #
 # TODO : reuse this for other kind of payload data ?
