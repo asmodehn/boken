@@ -14,7 +14,9 @@ install:
   - pipenv install --dev --pre --skip-lock
 
 script:
-  - pytest
+  - python -m boken.ws.tests
+  - pytest tests
+  -
 
 notifications:
   email: false
